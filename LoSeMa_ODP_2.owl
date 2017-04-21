@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/Michael-Gloeckner/LoSeMa_ODP/blob/master/LoSeMa_ODP.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/Michael-Gloeckner/LoSeMa_ODP/blob/master/LoSeMa_ODP.owl">
+    <Prefix name="" IRI="https://github.com/Michael-Gloeckner/LoSeMa_ODP/blob/master/LoSeMa_ODP.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="owl2xml" IRI="http://www.w3.org/2006/12/owl2-xml#"/>
+    <Prefix name="LoSe_ODP" IRI="https://github.com/Michael-Gloeckner/LoSeMa_ODP#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">created by Michael Glöckner</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Logistics Service Map</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is an ontology design pattern for logistics service maps.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LoSeMa_ODP</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0.2</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Living"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Short"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inbound"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStructuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionalRootTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fixed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogistcsServiceStructuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationalLogisticsService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bulk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecialConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Long"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighRack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Express"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InlandShipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outbound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFunctionalTemplate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dangerous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessRelated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transshipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogisticsService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guarded"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeOfTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SouthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStorageStrategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhaseOfProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chaotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalLogisticsService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NorthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStorageType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageStrategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationRange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialConditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocenaia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Countries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenSeaShipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasModeOfTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValueAdded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dimension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeavyDuty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warehouse"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#Continents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air"/>
+        <Class IRI="#ModeOfTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Continents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Block"/>
+        <Class IRI="#StorageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulk"/>
+        <Class IRI="#StorageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chaotic"/>
+        <Class IRI="#StorageStrategy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continents"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cooling"/>
+        <Class IRI="#SpecialConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Countries"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dangerous"/>
+        <Class IRI="#SpecialConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europe"/>
+        <Class IRI="#Continents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Express"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial"/>
+        <Class IRI="#InformationalLogisticsService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fixed"/>
+        <Class IRI="#StorageStrategy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guarded"/>
+        <Class IRI="#SpecialConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeavyDuty"/>
+        <Class IRI="#SpecialConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighRack"/>
+        <Class IRI="#StorageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inbound"/>
+        <Class IRI="#PhaseOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationalLogisticsService"/>
+        <Class IRI="#FunctionalRootTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InlandShipping"/>
+        <Class IRI="#Sea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knowledge"/>
+        <Class IRI="#InformationalLogisticsService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Land"/>
+        <Class IRI="#ModeOfTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living"/>
+        <Class IRI="#SpecialConditions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Long"/>
+        <Class IRI="#OperationRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeOfTransport"/>
+        <Class IRI="#Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <Class IRI="#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NorthAmerica"/>
+        <Class IRI="#Continents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocenaia"/>
+        <Class IRI="#Continents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenSeaShipping"/>
+        <Class IRI="#Sea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationRange"/>
+        <Class IRI="#Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outbound"/>
+        <Class IRI="#PhaseOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhaseOfProcess"/>
+        <Class IRI="#Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalLogisticsService"/>
+        <Class IRI="#FunctionalRootTemplate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessRelated"/>
+        <Class IRI="#InformationalLogisticsService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production"/>
+        <Class IRI="#PhaseOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rail"/>
+        <Class IRI="#Land"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Land"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sea"/>
+        <Class IRI="#ModeOfTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Short"/>
+        <Class IRI="#OperationRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SouthAmerica"/>
+        <Class IRI="#Continents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tank"/>
+        <Class IRI="#StorageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transport"/>
+        <Class IRI="#PhaseOfProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transportation"/>
+        <Class IRI="#PhysicalLogisticsService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transshipment"/>
+        <Class IRI="#PhysicalLogisticsService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValueAdded"/>
+        <Class IRI="#PhysicalLogisticsService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warehouse"/>
+        <Class IRI="#PhysicalLogisticsService"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDimensions"/>
+        <Class IRI="#LogistcsServiceStructuring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFunctionalTemplate"/>
+        <Class IRI="#LogistcsServiceStructuring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasModeOfTransport"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasModeOfTransport"/>
+        <Class IRI="#Transshipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpecialConditions"/>
+        <Class IRI="#LogistcsServiceStructuring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStorageStrategy"/>
+        <Class IRI="#Warehouse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStorageType"/>
+        <Class IRI="#Warehouse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStructuring"/>
+        <Class IRI="#LogisticsService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDimensions"/>
+        <Class IRI="#Dimension"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFunctionalTemplate"/>
+        <Class IRI="#FunctionalRootTemplate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasModeOfTransport"/>
+        <Class IRI="#ModeOfTransport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecialConditions"/>
+        <Class IRI="#SpecialConditions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStorageStrategy"/>
+        <Class IRI="#StorageStrategy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStorageType"/>
+        <Class IRI="#StorageType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStructuring"/>
+        <Class IRI="#LogistcsServiceStructuring"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
